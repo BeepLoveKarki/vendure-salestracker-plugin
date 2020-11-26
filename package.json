@@ -1,0 +1,29 @@
+{
+  "name": "vendure-salestracker-plugin",
+  "version": "0.0.1",
+  "description": "A Vendure plugin for tracking sales",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "Biplab Karki <biplab@innovatex.biz>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "rimraf lib && tsc"
+  },
+  "resolutions": {
+    "tslib": "1.11.2",
+    "graphql": "15.3.0"
+  },
+  "devDependencies": {
+    "@vendure/admin-ui": "^0.17.0",
+    "@vendure/asset-server-plugin": "^0.17.0",
+    "@vendure/core": "^0.17.0",
+    "@vendure/ui-devkit": "^0.17.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.5"
+  }
+}
